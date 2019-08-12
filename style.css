@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto';
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper {
+    background-color: #252525;
+    max-width: 870px;
+    margin: 10px auto 0;
+    border: 1px solid rgba(212, 210, 210, 0.08);
+    /*border-top: none;*/
+    padding: 25px;
+    box-shadow: 0px 16px 14px 2px rgba(0, 0, 0, 0.23);
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+}
+/*.left, .right {*/
+    /*flex-basis: 49%;*/
+/*}*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.header .photo {
+    flex-basis: 100%;
+    border: 1px solid rgba(212, 210, 210, 0.39);
+}
+.header .photo img {
+    width: 100%;
+}
+
+.info {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0;
+}
+.info .name {
+    margin: 0;
+    color: #d4d2d2;
+    text-shadow: 1px 5px 6px #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 32px;
+}
+.info .firstname {
+    font-size: 30px;
+}
+.info .lastname {
+    font-size: 30px;
+}
+.info .firstname {
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content .block {
+    flex-basis: 100%;
+    color: #d4d2d2;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.content .block .title {
+    margin: 0;
+}
+.content .block .title h4 {
+    margin: 0 0 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.content .block .text {
+    border-top: 1px solid #d4d2d224;
+    padding: 10px;
+    margin: 0 0 15px;
+}
+.content .block .text {
+    border-top: 1px solid #d4d2d224;
+    padding: 10px;
+    margin: 0 0 15px;
+}
+.content .block .text .title {
+    margin: 0;
+    font-weight: 500;
+}
+.content .block .text  .post {
+    color: #eeffff4a;
+}
+
+.content .block .text .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content .block .text .social {
+    margin: 5px 0;
+}
+.content .block .text .socials .social .icon {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.content .block .text .socials .social .link {
+    font-size: 13px;
+}
+.content .block .text .desc {
+    margin: 0 0 25px;
+    padding: 8px;
+    font-size: 14px;
+}
+.content .block .text .time {
+    margin: 5px 0;
+    color: #ffffff9e;
+    font-weight: 300;
+    font-size: 12px;
+}

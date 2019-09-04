@@ -108,17 +108,19 @@ body {
 }
 .content .block .text .desc {
     margin: 0 0 25px;
-    padding: 8px;
+    padding: 3px;
+    font-size: 14px;
+}
+.content .block .text .p-desc {
+    margin: 0;
+    padding: 3px;
     font-size: 14px;
 }
 .content .block .text .members .members__icon {
     max-width: 13px;
     vertical-align: middle;
 }
-.content .block .text .members .slash {
-    vertical-align: middle;
-    color: #ffffff9e;
-}
+
 .content .block .text .members .number {
     font-size: 13px;
     vertical-align: middle;
@@ -126,13 +128,16 @@ body {
     color: #ffffff9e;
 }
 .content .block .text .time {
-    margin: 5px 0;
+    margin: 5px 0 10px;
     color: #ffffff9e;
     font-weight: 300;
     font-size: 12px;
 }
 .content .block .text .techs {
     margin: 0;
-    padding: 8px 8px 0;
+    padding: 3px;
     font-size: 14px;
+}
+.content .block .text .highlighted {
+    color: #eeffff87;
 }

@@ -111,9 +111,28 @@ body {
     padding: 8px;
     font-size: 14px;
 }
+.content .block .text .members .members__icon {
+    max-width: 13px;
+    vertical-align: middle;
+}
+.content .block .text .members .slash {
+    vertical-align: middle;
+    color: #ffffff9e;
+}
+.content .block .text .members .number {
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: -2px;
+    color: #ffffff9e;
+}
 .content .block .text .time {
     margin: 5px 0;
     color: #ffffff9e;
     font-weight: 300;
     font-size: 12px;
+}
+.content .block .text .techs {
+    margin: 0;
+    padding: 8px 8px 0;
+    font-size: 14px;
 }
